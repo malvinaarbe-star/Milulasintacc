@@ -1,0 +1,231 @@
+Actúa como un diseñador UX/UI senior y desarrollador Front-End especializado en gastronomía artesanal.
+
+Voy a adjuntar los siguientes archivos:
+
+- index.html
+- styles.css
+- script.js
+- logo Milula Sin TACC
+- imágenes de productos
+- videos promocionales
+- recursos gráficos adicionales
+
+Tu tarea es RECONSTRUIR y MEJORAR completamente el sitio web utilizando estos archivos como base, manteniendo la identidad visual de la marca.
+
+====================================
+INFORMACIÓN DE LA MARCA
+====================================
+
+Nombre:
+Milula Sin TACC
+
+Descripción:
+
+Milula Sin TACC elabora pastelería artesanal 100% libre de gluten, utilizando ingredientes seleccionados y mucho amor en cada preparación.
+
+Encontrarás tortas, tartas, budines, cookies, postres cuchareables, desayunos y opciones saladas, ideales para disfrutar sin preocupaciones.
+
+Todos los productos se realizan a pedido, garantizando frescura, calidad y dedicación en cada elaboración.
+
+Porque creemos que todos merecen disfrutar de algo rico, cada creación está hecha con amor.
+
+Ubicación:
+El Bolsón, Río Negro, Argentina
+
+Entregas:
+El Bolsón y Esquel
+
+Contacto:
+WhatsApp: 2945 411146
+
+Instagram:
+@milula.sintacc
+
+====================================
+ESTILO VISUAL
+====================================
+
+Diseño:
+- Elegante
+- Delicado
+- Profesional
+- Moderno
+- Artesanal
+- Femenino
+- Minimalista
+
+Inspiración:
+Pastelerías boutique premium.
+
+Sensación:
+- Calidez
+- Cercanía
+- Confianza
+- Productos caseros
+- Elaboración artesanal
+
+====================================
+PALETA DE COLORES
+====================================
+
+Color principal:
+#A55CB4 (lila Milula)
+
+Color secundario:
+#6DD4E7 (celeste logo)
+
+Color complementario:
+#F59BC8 (rosa suave)
+
+Fondo principal:
+#FFFDF8
+
+Fondo alternativo:
+#F8F4F0
+
+Texto principal:
+#4A4A4A
+
+Texto secundario:
+#777777
+
+Distribución:
+
+40% Blanco cálido
+25% Crema suave
+15% Celeste Milula
+10% Lila Milula
+10% Rosa pastel
+
+====================================
+TIPOGRAFÍA
+====================================
+
+Títulos:
+Playfair Display
+
+Subtítulos:
+Cormorant Garamond
+
+Texto:
+Poppins
+
+====================================
+ESTRUCTURA DEL SITIO
+====================================
+
+1. HERO PRINCIPAL
+
+- Video de fondo suave utilizando los videos adjuntos.
+- Logo animado.
+- Frase principal:
+
+"Sabores caseros, libres de gluten y hechos con amor"
+
+Botón principal:
+"Pedir por WhatsApp"
+
+Botón secundario:
+"Ver Productos"
+
+====================================
+
+2. SOBRE MILULA
+
+Historia de la marca.
+
+Imagen destacada.
+
+Texto cálido y emocional.
+
+====================================
+
+3. PRODUCTOS
+
+Mostrar tarjetas elegantes con:
+
+- Tortas
+- Tartas
+- Budines
+- Cookies
+- Postres cuchareables
+- Opciones saladas
+- Desayunos
+
+Usar las imágenes adjuntas.
+
+Efecto hover suave.
+
+====================================
+
+4. GALERÍA
+
+Diseño masonry moderno.
+
+Mostrar imágenes reales.
+
+Abrir imagen ampliada al hacer clic.
+
+====================================
+
+5. PEDIDOS ESPECIALES
+
+Bloque destacado:
+
+"Tortas y mesas dulces a pedido"
+
+Botón:
+"Consultar"
+
+====================================
+
+6. TESTIMONIOS
+
+Diseño elegante.
+
+Estrellas suaves.
+
+====================================
+
+7. CONTACTO
+
+WhatsApp
+
+Instagram
+
+Ubicación
+
+Botón flotante de WhatsApp.
+
+====================================
+
+ANIMACIONES
+====================================
+
+- Fade In
+- Slide Up
+- Scroll Reveal
+- Hover delicado
+- Microinteracciones
+
+Sin exagerar.
+
+====================================
+OPTIMIZACIÓN
+====================================
+
+- Responsive Mobile First
+- Optimización SEO
+- Carga rápida
+- Accesibilidad AA
+- HTML semántico
+- CSS moderno
+- JavaScript limpio
+
+====================================
+RESULTADO ESPERADO
+====================================
+
+Crear una web que parezca una pastelería boutique premium, con fotografías reales, mucha luz natural, colores pastel, sensación artesanal y profesional, transmitiendo confianza y calidad.
+
+La web debe verse moderna, elegante y lista para producción.

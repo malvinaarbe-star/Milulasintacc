@@ -1,0 +1,16 @@
+# Imágenes originales PNG (se usan las WebP)
+imagenes/tortas.png
+imagenes/tartas.png
+imagenes/budines.png
+imagenes/cookies.png
+imagenes/postres.png
+imagenes/saladas.png
+imagenes/desayunos.png
+imagenes/hero-poster.png
+imagenes/about.png
+imagenes/especiales.png
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Milula Sin TACC</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Georgia", serif;
+      background-color: #fff7f3;
+      color: #5c3d3d;
+    }
+
+    header {
+      background-color: #f8dfe8;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      color: #9b4f96;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      background-color: #fffaf6;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      color: #c96f8a;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      padding: 40px;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      color: #9b4f96;
+      font-size: 24px;
+    }
+
+    .card p {
+      font-size: 16px;
+    }
+
+    .pedido {
+      background-color: #dff3f0;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .pedido h2 {
+      color: #6aa6a1;
+      font-size: 32px;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 14px 28px;
+      background-color: #c96f8a;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 18px;
+    }
+
+    footer {
+      background-color: #9b4f96;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Milula Sin TACC</h1>
+    <p>Pastelería artesanal libre de gluten</p>
+  </header>
+
+  <section class="hero">
+    <h2>Sabores caseros, hechos con amor</h2>
+    <p>
+      En Milula Sin TACC elaboramos tortas, tartas, budines, cookies y postres
+      libres de gluten, pensados para que todos puedan disfrutar algo rico,
+      casero y especial.
+    </p>
+  </section>
+
+  <section class="productos">
+    <div class="card">
+      <h3>Tortas</h3>
+      <p>Cheesecake, carrot cake, chocotorta y más opciones a pedido.</p>
+    </div>
+
+    <div class="card">
+      <h3>Tartas</h3>
+      <p>Tarta de coco, ricotta, dulce de leche y sabores especiales.</p>
+    </div>
+
+    <div class="card">
+      <h3>Budines</h3>
+      <p>Budines artesanales de limón, chocolate, carrot cake y vainilla.</p>
+    </div>
+
+    <div class="card">
+      <h3>Cajitas</h3>
+      <p>Opciones dulces y saladas para regalar o compartir.</p>
+    </div>
+  </section>
+
+  <section class="pedido">
+    <h2>Pedidos para el finde</h2>
+    <p>Reservá con anticipación y disfrutá opciones sin TACC hechas con amor.</p>
+    <a class="boton" href="https://wa.me/5492945411146" target="_blank">
+      Hacer pedido por WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>Milula Sin TACC · Entregas en El Bolsón y Esquel</p>
+    <p>Instagram: @milula.sintacc</p>
+  </footer>
+
+</body>
+</html>
+
+<section id="productos"></section>
+
+<button id="botonPedido">
+  Hacer pedido por WhatsApp
+</button>
+
+<script src="script.js"></script>
