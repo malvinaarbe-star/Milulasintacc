@@ -51,16 +51,16 @@
     }
   ];
 
-  // ----- Galería (fotos reales de WhatsApp) -----
+  // ----- Galería (imágenes de productos) -----
   const galleryImages = [
-    { src: 'imagenes/WhatsApp Image 2025-08-05 at 18.05.29.jpeg', alt: 'Creación artesanal Milula' },
-    { src: 'imagenes/WhatsApp Image 2025-08-05 at 18.15.52.jpeg', alt: 'Torta artesanal sin TACC' },
-    { src: 'imagenes/WhatsApp Image 2025-08-05 at 18.16.05.jpeg', alt: 'Postre Milula' },
-    { src: 'imagenes/WhatsApp Image 2025-08-05 at 19.11.48 (1).jpeg', alt: 'Preparación artesanal' },
-    { src: 'imagenes/WhatsApp Image 2025-08-19 at 19.03.55.jpeg', alt: 'Producto Milula Sin TACC' },
-    { src: 'imagenes/WhatsApp Image 2025-08-19 at 19.03.56.jpeg', alt: 'Pastelería libre de gluten' },
-    { src: 'imagenes/WhatsApp Image 2025-08-19 at 19.03.58.jpeg', alt: 'Creación Milula' },
-    { src: 'imagenes/WhatsApp Image 2025-08-19 at 19.20.13.jpeg', alt: 'Torta personalizada' }
+    { src: 'imagenes/tortas.webp', alt: 'Tortas artesanales sin TACC' },
+    { src: 'imagenes/tartas.webp', alt: 'Tartas libres de gluten' },
+    { src: 'imagenes/budines.webp', alt: 'Budines artesanales Milula' },
+    { src: 'imagenes/cookies.webp', alt: 'Cookies sin TACC' },
+    { src: 'imagenes/postres.webp', alt: 'Postres cuchareables Milula' },
+    { src: 'imagenes/saladas.webp', alt: 'Opciones saladas sin gluten' },
+    { src: 'imagenes/desayunos.webp', alt: 'Desayunos artesanales Milula' },
+    { video: 'imagenes/hero-video.mp4', poster: 'imagenes/hero-poster.webp', alt: 'Video promocional Milula Sin TACC' }
   ];
 
   // ----- Testimonios -----
@@ -115,6 +115,15 @@
     if (!masonry) return;
 
     masonry.innerHTML = galleryImages.map(function (img, i) {
+      if (img.video) {
+        return (
+          '<div class="gallery__item gallery__item--video reveal" style="transition-delay:' + (i * 0.06) + 's">' +
+            '<video src="' + img.video + '" poster="' + img.poster + '" alt="' + img.alt + '" ' +
+                 'autoplay muted loop playsinline preload="none">' +
+            '</video>' +
+          '</div>'
+        );
+      }
       return (
         '<div class="gallery__item reveal" style="transition-delay:' + (i * 0.06) + 's">' +
           '<img src="' + img.src + '" alt="' + img.alt + '" loading="lazy" ' +

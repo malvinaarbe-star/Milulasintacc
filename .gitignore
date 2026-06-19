@@ -14,3 +14,7 @@ imagenes/especiales.png
 .DS_Store
 Thumbs.db
 *.log
+
+# Original / backup files
+mas fotos/
+prompt/
