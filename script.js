@@ -59,8 +59,7 @@
     { src: 'imagenes/cookies.webp', alt: 'Cookies sin TACC' },
     { src: 'imagenes/postres.webp', alt: 'Postres cuchareables Milula' },
     { src: 'imagenes/saladas.webp', alt: 'Opciones saladas sin gluten' },
-    { src: 'imagenes/desayunos.webp', alt: 'Desayunos artesanales Milula' },
-    { video: 'imagenes/hero-video.mp4', poster: 'imagenes/hero-poster.webp', alt: 'Video promocional Milula Sin TACC' }
+    { src: 'imagenes/desayunos.webp', alt: 'Desayunos artesanales Milula' }
   ];
 
   // ----- Testimonios -----
@@ -115,15 +114,6 @@
     if (!masonry) return;
 
     masonry.innerHTML = galleryImages.map(function (img, i) {
-      if (img.video) {
-        return (
-          '<div class="gallery__item gallery__item--video reveal" style="transition-delay:' + (i * 0.06) + 's">' +
-            '<video src="' + img.video + '" poster="' + img.poster + '" alt="' + img.alt + '" ' +
-                 'autoplay muted loop playsinline preload="none">' +
-            '</video>' +
-          '</div>'
-        );
-      }
       return (
         '<div class="gallery__item reveal" style="transition-delay:' + (i * 0.06) + 's">' +
           '<img src="' + img.src + '" alt="' + img.alt + '" loading="lazy" ' +
